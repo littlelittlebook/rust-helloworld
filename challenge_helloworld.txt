@@ -1,0 +1,18 @@
+challenge #3: helloworld
+
+contract is deployed to example-helloworld.littlebook.testnet
+
+On explorer, we can see the result is "hello world! bob"
+after calling the function helloworld().
+https://explorer.testnet.near.org/transactions/CL3bT6LqaHP49rXCXCaqyp8SUDr8N4giEjeEysmYRVJf
+
+
+command line invocation of helloworld() and output:
+
+$ near call $ID helloworld "{\"name\":\"bob\"}" --accountId $ID
+Scheduling a call: example-helloworld.littlebook.testnet.helloworld({"name":"bob"})
+Doing account.functionCall()
+Transaction Id CL3bT6LqaHP49rXCXCaqyp8SUDr8N4giEjeEysmYRVJf
+To see the transaction in the transaction explorer, please open this url in your browser
+https://explorer.testnet.near.org/transactions/CL3bT6LqaHP49rXCXCaqyp8SUDr8N4giEjeEysmYRVJf
+'hello world! bob'
